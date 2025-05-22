@@ -1,59 +1,65 @@
-# Build applications with GitHub Copilot agent mode
+# Mermaid Copilot: AI-Powered Executable Diagram Platform
 
-<!-- ![](https://github.com/reconsumeralization/skills-build-applications-w-copilot-agent-mode/actions/workflows/0-start-course.yml/badge.svg?branch=main) -->
-<img src="https://github.com/user-attachments/assets/8c45e716-1d95-473b-8923-dbbbf0f924b2" alt="octofit-tracker-app" width="30%" height="30%"/>
+![octofit-tracker-app](https://github.com/user-attachments/assets/8c45e716-1d95-473b-8923-dbbbf0f924b2)
 
-_Build an application with GitHub Copilot agent mode in less than an hour._
-
-## Welcome
-
-People love how GitHub Copilot helps them write code faster and with fewer errors.
-But what if GitHub could create a full stack application for your job role based on requirements
-written in natural language.
-In this exercise, we will prompt GitHub Copilot agent mode to create us a complete application.
-
-- **Who is this for**: Intermediate developers familiar with GitHub Copilot, basic GitHub, and basic web development
-- **What you'll learn**: We'll introduce GitHub Copilot agent mode and how to use it for application development.
-- **What you'll build**: You'll use GitHub Copilot agent mode to create a fitness application as the gym teacher of a high school.
-- **How long**: This course takes less than one hour to complete.
-
-In this exercise, you will:
-
-1. Start up a preconfigured development environment for making a full stack application.
-2. Prompt in GitHub Copilot Chat and select the edit tab and select agent mode from the edit/agent drop down.
-3. Try creating the application with GPT-4o.
-4. Try other LLM models to see other output.
-
-### How to start this exercise
-
-1. Right-click **Copy Exercise** and open the link in a new tab.
-
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
-   </a>
-
-2. In the new tab, most of the fields will automatically fill in for you.
-
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will use [Actions minutes](https://docs.github.chttps://github.com/reconsumeralization/skills-build-applications-w-copilot-agent-mode/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-
-3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
-
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-   - You will likely need to refresh the page.
-
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
-
-   <a id="start-exercise" href="https://github.com/reconsumeralization/skills-build-applications-w-copilot-agent-mode/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
-   </a>
-
-> ❕ **Important:** The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
+_Build, visualize, and execute software architectures from diagrams using AI and Mermaid._
 
 ---
 
-[Review the GitHub status page](https://www.githubstatus.com/)
+## What is Mermaid Copilot?
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+Mermaid Copilot is an enterprise-ready platform that turns Mermaid diagrams into interactive, executable software blueprints. Powered by AI, it bridges the gap between visual design and real code execution, enabling:
+
+- **Diagram validation and live editing**
+- **Clickable nodes with metadata and code execution**
+- **Import/export of diagrams**
+- **Custom node styling (colors, icons, badges)**
+- **Pluggable execution environments (JS, Python, cloud, etc.)**
+- **Real-time collaboration and sharing**
+
+## Key Features
+
+- **AI-Driven Diagram Generation:** Use natural language to generate system diagrams with embedded metadata.
+- **Executable Nodes:** Each node can represent a real service, function, or code block. Click to view metadata or execute code.
+- **Live Validation:** Diagrams are checked for syntax and structure before rendering.
+- **Import/Export:** Save and load `.mmd` files for reuse and sharing.
+- **Custom Styling:** Style nodes with colors, icons, and badges via metadata.
+- **Extensible Execution:** Plug in new execution engines (e.g., Python, cloud functions, microservices).
+- **Enterprise-Ready:** Designed for teams, with collaboration and sharing in mind.
+
+## Example Use Cases
+
+- **Software Architecture Prototyping**
+- **Workflow Automation**
+- **Data Pipeline Visualization & Execution**
+- **Education & Training**
+
+## Quick Start
+
+1. Clone this repo and install dependencies:
+
+   ```bash
+   git clone ...
+   cd mermaid-executable-app
+   npm install
+   npm start
+   ```
+
+2. Edit diagrams in the UI, click nodes to execute, and export/import as needed.
+
+## Roadmap
+
+- [x] Diagram validation and rendering
+- [x] Clickable, executable nodes
+- [ ] Import/export diagrams
+- [ ] Custom node styling
+- [ ] Pluggable execution environments (Python, cloud, etc.)
+- [ ] Real-time collaboration
+
+## Contributing
+
+Pull requests and ideas are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+## License
+
+MIT

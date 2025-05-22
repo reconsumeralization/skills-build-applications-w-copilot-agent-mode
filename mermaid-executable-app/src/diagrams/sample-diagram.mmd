@@ -1,0 +1,9 @@
+%% This file contains a sample Mermaid diagram in the .mmd format. It serves as an example for testing the rendering and execution features of the application.
+
+graph TD;
+    A[Start] --> B[Write Code];
+    B --> C[Run Code];
+    C --> D{Did it work?};
+    D -- Yes --> E[Celebrate!];
+    D -- No --> F[Fix Code];
+    F --> C;

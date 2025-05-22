@@ -1,0 +1,42 @@
+{
+  "name": "mermaid-executable-app",
+  "version": "1.0.0",
+  "description": "An application that utilizes Mermaid diagrams with special nodes that can execute code based on the diagrams.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "mermaid": "^10.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "react-scripts": "^4.0.3",
+    "typescript": "^4.4.4"
+  },
+  "keywords": [
+    "mermaid",
+    "diagrams",
+    "react",
+    "executable",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
