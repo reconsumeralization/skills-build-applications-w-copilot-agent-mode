@@ -5,7 +5,7 @@
   "dependencies": {
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
-    "mermaid": "^8.13.10",
+    "mermaid": "^10.9.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }
